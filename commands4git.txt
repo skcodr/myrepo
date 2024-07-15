@@ -1,0 +1,32 @@
+
+echo "# DeleteThis" >> README.md
+git init
+
+git add README.md Otherfiles*
+
+Git status
+
+git commit -m "first commit"
+
+git branch -M main
+
+Git branch ( Gives you Info on Available branches )
+
+Git config --global user.name "As done on the Github Web"
+Git config --global user.email "As done on the Github Web"
+Git config --system --list
+
+Git config 
+
+
+git remote add origin https://TokenGenerated@github.com/skcodr/DeleteThis.git ( A Must for MAC , Else it will endue in Error)
+https://www.youtube.com/watch?v=p0Js7IF17yI
+
+The Token Generation can be done usingg the Developer Options under Settings > and Simple token > Generate 
+
+git push -u origin main
+
+
+If you have hiccups with Origin name, delete using the below Command.
+>git remote remove origin
+
